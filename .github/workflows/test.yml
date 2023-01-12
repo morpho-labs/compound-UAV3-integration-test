@@ -1,7 +1,5 @@
 name: test
 
-on: workflow_dispatch
-
 env:
   FOUNDRY_PROFILE: ci
 
@@ -32,3 +30,5 @@ jobs:
         run: |
           forge test -vvv
         id: test
+        env:
+          FOUNDRY_ETH_RPC_URL: ${{ secrets.FOUNDRY_ETH_RPC_URL }}
