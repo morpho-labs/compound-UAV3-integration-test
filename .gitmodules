@@ -2,3 +2,7 @@
 	path = lib/forge-std
 	url = https://github.com/foundry-rs/forge-std
 	branch = v1.2.0
+[submodule "lib/morpho-v1"]
+	path = lib/morpho-v1
+	url = https://github.com/morpho-dao/morpho-v1
+	branch = v2.0.0
